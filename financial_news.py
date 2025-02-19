@@ -1,8 +1,4 @@
 from transformers import pipeline
-import os
-os.environ["http_proxy"] = "http://inet1.gtm.corp.sanpaoloimi.com:9090/"
-os.environ["https_proxy"] = "http://inet1.gtm.corp.sanpaoloimi.com:9090/"
-
 
 def riassumi_transformers_astrattivo(testo):
     """Riassume un testo utilizzando un modello pre-allenato di Transformers (summarization)."""
